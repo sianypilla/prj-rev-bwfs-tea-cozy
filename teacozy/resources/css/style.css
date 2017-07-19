@@ -1,0 +1,152 @@
+body {
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+  margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 15px 0 10px 0;
+}
+
+
+/*HEADER START*/
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: relative;
+  background-color: black;
+}
+
+.page-header span {
+  padding: 0 20px;
+  text-decoration: underline;
+  position: relative;
+}
+
+/*HEADER END*/
+
+/*MISSION START*/
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../img-mission-background.jpg');
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  top: 69px;
+}
+
+.mission-header {
+  background-color: black;
+  align-content: center;
+  text-align: center;
+}
+
+
+/*MISSION END*/
+
+/*MENU START*/
+.menu {
+  width: 1000px;
+  margin: 0px auto;
+  position: relative;
+  top: 140px;
+}
+
+.menu-header {
+  display: block;
+  text-align: center;
+}
+
+.tea-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.tea {
+  padding: 15px;
+}
+
+.tea-img {
+
+}
+.tea-name {
+  text-align: center;
+}
+/*MENU END*/
+
+/*LOCATION START*/
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  width: 1200px;
+  height: 500px;
+  background-image: url('../img-locations-background.jpg');
+  position: relative;
+  top: 210px;
+
+}
+
+.location-header {
+  display: flex;
+  justify-content: center;
+}
+
+.shops {
+  display: flex;
+  justify-content: center;
+
+}
+
+.address {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  margin: 15px 20px;
+
+
+}
+/*LOCATION END*/
+
+/*FOOTER START*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  top: 210px;
+
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+/*FOOTER END*/
